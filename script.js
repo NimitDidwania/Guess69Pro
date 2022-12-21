@@ -28,7 +28,6 @@ function show(idx){
     else {
         document.querySelector(".container").style.background = "Red";
         wrongSound.play();
-        navigator.vibrate(1000);
         points-=3;
         document.getElementById("score").innerHTML = points;
     }
