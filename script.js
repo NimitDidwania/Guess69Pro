@@ -39,7 +39,7 @@ function show(idx){
     if(rounds==0){
         console.log("game finished");
         if(points>1){
-        document.querySelector("#remarks").innerHTML = "CONGRATULATIONS!!!";}
+        document.querySelector("#remarks").innerHTML = "WON!!!";}
         else{
             document.querySelector("#remarks").innerHTML = "Lost!!!";
         }
