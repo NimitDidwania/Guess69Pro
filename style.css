@@ -1,0 +1,140 @@
+
+*{
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+}
+.heading{
+    width: 100vw;
+    height: 7vh;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.container{
+    border: 1px solid black;
+    height: 93vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap:wrap;
+    background-color: black;
+    position: absolute;
+    z-index:3;
+    overflow-y: auto;
+}
+#instructions-container{
+    
+    height: 93vh;
+    width: 100vw;
+    z-index: 4;
+    position: absolute;
+    background-color: gray;
+    opacity: 97%;
+}
+
+#instructions-container button {
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    padding: 2px;
+    width:2rem;
+    height:4 rem;
+    border: 0px;
+    border-radius: 50px;
+}
+#instructions{
+    background-color: black;
+    height: 68vh;
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    border-radius: 20px;
+    left: 22%;
+    right: 22%;
+    overflow-y: auto;
+    color: white;
+    border: 0.5px solid cyan
+}
+#instructions h1{
+    margin-top: 2rem;
+    color:cadetblue;
+}
+.area{
+    position: relative;
+}
+.below{
+    height: 93vh;
+    width: 100vw;
+    /* background-color: pink; */
+    z-index:0;
+    color: white;
+    position: absolute;
+}
+.finished{
+    height: 93vh;
+    width: 100vw;
+    background-color: seagreen;
+    color: whitesmoke;
+    position: absolute;
+    z-index:-1;
+    display:flex;
+}
+#remarks{
+    margin:auto;
+    font-size: 500%;
+}
+.card{
+    border: 1px solid slategray ;
+    height: 25vh;
+    width: 30vh;
+    margin: auto;
+    /* color: white; */
+    display: flex;
+    background: white;
+    border-radius: 17px;
+}
+.ques{
+    text-align: center;
+    margin: auto;
+    font-size: 10vh;
+}
+.heading{
+    background-color: cadetblue;
+    font-family: monospace;
+}
+
+.inline{
+    display: inline;
+}
+
+.points{
+    border: 2px solid white;
+    width:10px
+}
+#title{
+    text-align: center;
+    background-color: mintcream;
+    font-family: monospace;
+}
+#score-display
+{
+    
+}
+.center{
+    text-align: center;
+}
+.beauty{
+    padding: 3rem;
+    line-height: 2rem;
+    text-decoration: wavy;
+    text-align: center;
+    font-family: monospace;
+    font-weight: lighter;
+}
+.points{
+    color: yellow;
+}
+.points:hover{
+    font-size: 10 rem;
+}
